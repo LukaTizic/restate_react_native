@@ -5,10 +5,35 @@ import {
   ScrollView,
   SafeAreaView,
   TouchableOpacity,
+  Touchable,
+  ImageSourcePropType,
 } from "react-native";
 import React from "react";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
+
+interface SettingsItemProps {
+  icon: ImageSourcePropType;
+  title: string;
+  onPress: () => void;
+  textStyle?: string;
+  showArrow: boolean;
+}
+
+const SettingsItems = ({
+  icon,
+  title,
+  onPress,
+  textStyle,
+  showArrow = true,
+}: SettingsItemProps) => (
+  <TouchableOpacity>
+    <View>
+      <Image source={icon} />
+      <Text>{title}</Text>
+    </View>
+  </TouchableOpacity>
+);
 
 const Profile = () => {
   const handleLogout = async () => {};
