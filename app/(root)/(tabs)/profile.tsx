@@ -7,11 +7,14 @@ import {
   TouchableOpacity,
   Touchable,
   ImageSourcePropType,
+  Alert,
 } from "react-native";
 import React from "react";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
 import { settings } from "@/constants/data";
+import { useGlobalContext } from "@/lib/global-provider";
+import { logout } from "@/lib/appwrite";
 
 interface SettingsItemProps {
   icon: ImageSourcePropType;
@@ -43,7 +46,17 @@ const SettingsItem = ({
 );
 
 const Profile = () => {
-  const handleLogout = async () => {};
+  const { user, refetch } = useGlobalContext();
+
+  const handleLogout = async () => {
+    const result = await logout();
+
+    if (result) {
+      Alert.alert("Success", "You have been logged out successfully!");
+    } else {
+      Alert.alert("Error", "An error ocurred while logging out");
+    }
+  };
 
   return (
     <SafeAreaView className="h-full bg-white">
