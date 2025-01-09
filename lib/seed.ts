@@ -25,7 +25,7 @@ const propertyTypes = [
   "Other",
 ];
 
-const facilities = ["Laundry", " Parking", "  Gym", " Wifi", " Pet-Friendly"];
+const facilities = ["Laundry", "Parking", "Gym", "Wifi", "Pet-Friendly"];
 
 function getRandomSubset<T>(
   array: T[],
