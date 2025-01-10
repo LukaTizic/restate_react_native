@@ -100,7 +100,7 @@ export async function getLatestProperties() {
     const result = await databases.listDocuments(
       config.databaseId!,
       config.propertiesCollectionId!,
-      [Query.orderAsc("$createdAt"), Query.limit(5)]
+      [Query.orderDesc("$createdAt"), Query.limit(5)]
     );
     return result.documents;
   } catch (error) {
@@ -119,7 +119,7 @@ export async function getProperties({
   limit?: number;
 }) {
   try {
-    const buildQuery = [Query.orderDesc("$createdAt")];
+    const buildQuery = [Query.orderAsc("$createdAt")];
 
     if (filter && filter !== "All")
       buildQuery.push(Query.equal("type", filter));
