@@ -31,20 +31,27 @@ yarn start
 
 ## 🏡 App Screenshots
 
-<p align="center">
-  <a href="https://aeterna-ecommerce.vercel.app/">
-    <img src="assets/images/log-in-restate.jpg" width="150" alt="Log In Restate" />
-  </a>
-  <a href="https://aeterna-ecommerce.vercel.app/">
-    <img src="assets/images/house-restate.jpg" width="150" alt="House Restate" />
-  </a>
-  <a href="https://aeterna-ecommerce.vercel.app/">
-    <img src="assets/images/search-restate.jpg" width="150" alt="Search Restate" />
-  </a>
-  <a href="https://aeterna-ecommerce.vercel.app/">
-    <img src="assets/images/profile-restate.jpg" width="150" alt="Profile Restate" />
-  </a>
-  <a href="https://aeterna-ecommerce.vercel.app/">
-    <img src="assets/images/recommendation-restate.jpg" width="150" alt="Recommendation Restate" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <b style="display: block; margin-bottom: 8px;">Log In Restate</b> <br />
+      <br />
+      <img src="assets/images/log-in-restate.jpg" width="220" alt="Log In Restate" /><br />
+    </td>
+    <td align="center">
+      <b>House Restate</b> <br />
+      <br />
+      <img src="assets/images/house-restate.jpg" width="220" alt="House Restate" /><br />
+    </td>
+    <td align="center">
+      <b>Search Restate</b> <br />
+      <br />
+      <img src="assets/images/search-restate.jpg" width="220" alt="Search Restate" /><br />
+    </td>
+    <td align="center">
+      <b>Profile Restate</b> <br />
+      <br />
+      <img src="assets/images/profile-restate.jpg" width="220" alt="Profile Restate" /><br />
+    </td>
+  </tr>
+</table>
