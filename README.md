@@ -31,8 +31,8 @@ yarn start
 
 ## 🏡 App Screenshots
 
-<img src="https://raw.githubusercontent.com/LukaTizic/restate_react_native/master/assets/images/house-result.png" width="300" alt="House Result" />
-<img src="https://raw.githubusercontent.com/LukaTizic/restate_react_native/master/assets/images/log-in-res.png" width="300" alt="Log In Result" />
-<img src="https://raw.githubusercontent.com/LukaTizic/restate_react_native/master/assets/images/profile-res.png" width="300" alt="Profile Result" />
-<img src="https://raw.githubusercontent.com/LukaTizic/restate_react_native/master/assets/images/recommended.png" width="300" alt="Recommended" />
-<img src="https://raw.githubusercontent.com/LukaTizic/restate_react_native/master/assets/images/search-res.png" width="300" alt="Search Result" />
+[![Alt text](assets/images/log-in-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
+[![Alt text](assets/images/house-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
+[![Alt text](assets/images/search-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
+[![Alt text](assets/images/profile-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
+[![Alt text](assets/images/recommendation-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
