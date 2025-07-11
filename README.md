@@ -31,8 +31,20 @@ yarn start
 
 ## 🏡 App Screenshots
 
-[![Alt text](assets/images/log-in-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
-[![Alt text](assets/images/house-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
-[![Alt text](assets/images/search-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
-[![Alt text](assets/images/profile-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
-[![Alt text](assets/images/recommendation-restate.jpg)](https://aeterna-ecommerce.vercel.app/)
+<p align="center">
+  <a href="https://aeterna-ecommerce.vercel.app/">
+    <img src="assets/images/log-in-restate.jpg" width="150" alt="Log In Restate" />
+  </a>
+  <a href="https://aeterna-ecommerce.vercel.app/">
+    <img src="assets/images/house-restate.jpg" width="150" alt="House Restate" />
+  </a>
+  <a href="https://aeterna-ecommerce.vercel.app/">
+    <img src="assets/images/search-restate.jpg" width="150" alt="Search Restate" />
+  </a>
+  <a href="https://aeterna-ecommerce.vercel.app/">
+    <img src="assets/images/profile-restate.jpg" width="150" alt="Profile Restate" />
+  </a>
+  <a href="https://aeterna-ecommerce.vercel.app/">
+    <img src="assets/images/recommendation-restate.jpg" width="150" alt="Recommendation Restate" />
+  </a>
+</p>
