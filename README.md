@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+<div style="text-align: center; font-family: 'Arial', sans-serif; padding: 50px 0; background: linear-gradient(135deg, #11998e, #38ef7d); color: #fff;">
+  <h1 style="font-size: 3rem; font-weight: bold; letter-spacing: 2px;">Welcome to Restate!</h1>
+  <p style="font-size: 1.25rem; margin: 20px 0; font-style: italic;">A modern React Native app for buying and renting homes — built to deliver a smooth and beautiful mobile experience.</p>
+  <hr style="width: 50%; border: 1px solid #ddd; margin: 40px auto; opacity: 0.5;">
+</div>
 
 ```bash
-npm run reset-project
+npm start
+# or
+expo start
+# or
+yarn start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div style="max-width: 800px; margin: 0 auto; text-align: center; font-family: 'Arial', sans-serif; padding: 40px 20px; color: #fff;">
+  <h2 style="font-size: 2rem; font-weight: bold; margin-bottom: 20px;">Tech Stack</h2>
+  <p style="font-size: 1.1rem; margin-bottom: 30px; font-style: italic;">
+    Powered by modern cross-platform technologies to create fast, smooth, and scalable mobile experiences.
+  </p>
+  <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; text-align: left;">
+    <li>⚛️ React Native 0.76</li>
+    <li>🚀 Expo v52</li>
+    <li>🧭 Expo Router</li>
+    <li>🧩 React Navigation</li>
+    <li>🎨 Tailwind CSS (NativeWind)</li>
+    <li>🔐 Appwrite</li>
+    <li>🧪 Jest</li>
+    <li>🔧 TypeScript</li>
+  </ul>
+</div>
